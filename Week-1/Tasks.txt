@@ -1,0 +1,44 @@
+*Team 3 – Brainswarm Demonstration Lab*
+
+(Week 1: Platform Familiarization)
+
+Objectives
+Learn ESP32-S3 development workflow.
+Establish engineering standards.
+Build the first demonstration library.
+Hardware Tasks
+
+Develop and verify the following demonstrations:
+
+Hello World
+LED Blink
+Push Button
+Potentiometer Reading
+PWM LED Dimming
+OLED Welcome Display
+
+Firmware & Documentation Tasks
+Build all demonstrations in Wokwi before hardware testing.
+Create GitHub repository.
+Organize repository structure.
+Develop reusable templates:
+Documentation
+Presentation
+Activity Sheet
+
+*Week 1 Deliverables*
+Six working demonstrations.
+GitHub repository.
+Templates completed.
+Wiring photographs.
+Troubleshooting log.
+Demo presentation on Monday.
+
+
+
+//
+Student 1STEM Team:
+You will physically build and test 6 introductory demos on the CodnBots ESP32-S3 kit, one at a time, using the code your teammate hands you. For each demo, wire it exactly per the kit's pinout guide, upload the code from the Arduino IDE (or PlatformIO), and confirm it behaves correctly before moving to the next: (1) Hello World — confirm the Serial Monitor at 115200 baud prints a message, proving your board driver, USB port, and board selection are all correct; (2) Blink / LED control — wire an LED with digitalWrite() and delay() calls, confirm it blinks at a visible rate; (3) Button input — wire a push button with the correct pull-up/pull-down resistor, confirm pressing it changes the LED state; (4) Potentiometer — wire a potentiometer to an analog (ADC) pin, confirm the Serial Monitor shows a changing value (0–4095 range on ESP32-S3) as you turn the knob; (5) PWM LED dimming — using the ESP32-S3 LEDC PWM driver, confirm the LED fades smoothly up and down rather than just switching on/off; (6) OLED welcome screen — wire the I2C OLED display (check SDA/SCL pins and I2C address, usually 0x3C), confirm a static welcome message displays clearly on screen.
+
+Student 2 STEM Team:
+You will write and simulate the code for all 6 of this week's demos BEFORE your teammate touches the physical kit, so kit time is spent verifying, not first-draft debugging. Use the Wokwi ESP32-S3 simulator (wokwi.com) to build a virtual version of each circuit and get the code logic working there first. You will also set up the team's permanent GitHub repository this week: create a repo (e.g. 'brainswarm-demo-lab') with one folder per week ('week-01' through 'week-08'); inside 'week-01', create one sub-folder per demo containing the code file and a short README.md. Finally, build the three templates the whole 8-week program will reuse: (a) a one-page demo documentation template with sections Title / Components Used / Wiring Summary / Code Explanation / How to Test It; (b) a 5–6 slide presentation template (Title, Concept, How it Works, Wiring Diagram, Code Snippet, Result); (c) a one-page student activity worksheet template.
