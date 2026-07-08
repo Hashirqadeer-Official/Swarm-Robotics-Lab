@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "esp32-s3 LED Blink",
+			"path": "../../../Documents/PlatformIO/Projects/esp32-s3 LED Blink"
+		}
+	],
+	"settings": {}
+}
